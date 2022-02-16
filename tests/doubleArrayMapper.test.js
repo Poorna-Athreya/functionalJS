@@ -13,7 +13,7 @@ describe('Doubling array map function', () => {
         expect(doubleAll([10,12])).toBe('Invalid array values, please enter numbers from 0-9!');
     });
     it('Should return invalid message if input isan array of length > 20', () => {
-        expect(doubleAll([0,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,0,7,8,7,9,9,8])).toBe('Array size should be under 20!');
+        expect(doubleAll([0,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,0,7,8,7,6,8])).toBe('Array size should be under 20!');
     });
     it('Should return invalid message if input is not an array', () => {
         expect(doubleAll('Hello')).toBe('Invalid input, please enter an array!');
