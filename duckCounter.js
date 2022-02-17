@@ -5,3 +5,4 @@ const duckCount = (...args) => {
     }).length;
 }
 module.exports = duckCount;
+// console.log(duckCount([1,2,3]));

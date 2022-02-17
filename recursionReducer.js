@@ -7,6 +7,6 @@ const reduce = (arr, functionCalled, initialValue) => {
 }
 module.exports = reduce;
 
-console.log(reduce([1,2,3], sum = (prev,curr,index,arr) => {
-    return prev+curr;
-},5));
+// console.log(reduce([1,2,3], sum = (prev,curr,index,arr) => {
+//     return prev+curr;
+// },0));
